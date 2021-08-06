@@ -1,0 +1,106 @@
+
+//TRAYECTORIA
+#divTR{
+    display: flex;
+    justify-content: center;
+    margin: 5% 10% 10% 10%;
+}
+  
+  #divTR #tituloTR{
+    font-size: 40px;
+    color: rgb(12, 12, 12);
+    font-family: 'Noto Sans SC', sans-serif;
+    border-bottom: 1% solid rgb(5, 5, 5);
+  }
+  
+//FIN TRAYECTORIA
+
+
+//INDEX 
+
+#bodyIndex{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Teko', sans-serif;
+}
+
+//FIN INDEX
+
+//FOOTER
+.fb:hover{
+    
+        cursor: pointer;
+        color: #fffbfb;
+        background: linear-gradient(to bottom, #fff2f2 0%, #f0f0f0 100%); 
+}
+
+
+
+.ws:hover{
+
+    cursor: pointer;
+    color: #fffbfb;
+    background: linear-gradient(to bottom, #fff2f2 0%, #f0f0f0 100%); 
+}
+
+.fb{
+    width: 2%; 
+    height: 2%;
+    margin: 20px 10px 10px 10px;
+}
+
+.ws{
+    @extend .fb;
+    
+}
+
+#navFooter{
+    display: flex;
+    align-items: justify;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background: rgb(4, 4, 10);
+   
+  }
+
+//FIN FOOTER
+
+//SOBRE NOSOTROS
+@mixin titulosSn($tamanioTexto, $colorTexto ) {
+    font-size: $tamanioTexto;
+    color: $colorTexto;
+}
+
+#tituloSn{
+    @include titulosSn(70px, rgb(255, 246, 246) );
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    
+}
+
+.parrafoSn{
+    @include titulosSn(30px, rgb(221, 219, 219) );
+    font-family: 'Bona Nova', serif;
+}
+
+#bodySN{
+    background-color: rgb(27, 25, 25);
+  
+}
+//FIN SOBRE NOSOTROS
+
+//COLABORACIONES
+
+#tituloCS{
+    @include titulosSn(50px, rgb(46, 45, 45) ) ;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    
+}

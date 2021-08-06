@@ -1,0 +1,63 @@
+#divTR {
+  display: flex;
+  justify-content: center;
+  margin: 5% 10% 10% 10%; }
+
+#divTR #tituloTR {
+  font-size: 40px;
+  color: #0c0c0c;
+  font-family: 'Noto Sans SC', sans-serif;
+  border-bottom: 1% solid #050505; }
+
+#bodyIndex {
+  background-color: black; }
+
+h1 {
+  font-family: 'Teko', sans-serif; }
+
+.fb:hover, .ws:hover {
+  cursor: pointer;
+  color: #fffbfb;
+  background: linear-gradient(to bottom, #fff2f2 0%, #f0f0f0 100%); }
+
+.ws:hover {
+  cursor: pointer;
+  color: #fffbfb;
+  background: linear-gradient(to bottom, #fff2f2 0%, #f0f0f0 100%); }
+
+.fb, .ws {
+  width: 2%;
+  height: 2%;
+  margin: 20px 10px 10px 10px; }
+
+#navFooter {
+  display: flex;
+  align-items: justify;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background: #04040a; }
+
+#tituloSn {
+  font-size: 70px;
+  color: #fff6f6;
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  margin-bottom: 5%;
+  margin-top: 7%; }
+
+.parrafoSn {
+  font-size: 30px;
+  color: #dddbdb;
+  font-family: 'Bona Nova', serif; }
+
+#bodySN {
+  background-color: #1b1919; }
+
+#tituloCS {
+  font-size: 50px;
+  color: #2e2d2d;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 10%;
+  margin-top: 7%; }
